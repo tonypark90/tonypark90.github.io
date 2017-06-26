@@ -1,8 +1,11 @@
 body{
   width: 100%;
+  margin: 0px;
 }
 
-
+.overlay{
+  margin: 0%;
+}
 nav ul{
   display: inline-flex;
   border: solid 1px;
@@ -12,11 +15,12 @@ nav ul{
   linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.7) ),
   url("sink.jpg");
   list-style: none;
-  height: 200px;
+  height: 250px;
   background-position: center;
   background-size: 100%;
   align-content: center;
-    background-blend-mode: multiply;
+  width: 100%;
+  margin: 0px;
 }
  nav ul li{
     color: white;
