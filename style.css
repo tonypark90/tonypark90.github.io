@@ -10,9 +10,8 @@ nav ul{
   display: inline-flex;
   border: solid 1px;
   justify-content: space-between;
-  width: 95%;
   background-image: 
-  linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.7) ),
+  linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.8) ),
   url("sink.jpg");
   list-style: none;
   height: 250px;
@@ -21,6 +20,7 @@ nav ul{
   align-content: center;
   width: 100%;
   margin: 0px;
+  max-width: 97%;
 }
  nav ul li{
     color: white;
@@ -28,4 +28,5 @@ nav ul{
     margin-right: 3%;
     font-family: Work Sans;
     letter-spacing: .7px;
+    font-size: 18px;
  }
