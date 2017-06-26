@@ -13,7 +13,7 @@ nav{
 nav ul{
   display: inline-flex;
   border: solid 1px;
-  justify-content: space-between;
+  justify-content: space-around;
   background-image: 
   linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.8) ),
   url("sink.jpg");
@@ -21,7 +21,7 @@ nav ul{
   height: 250px;
   background-position: center;
   background-size: 100%;
-  align-content: center;
+  align-items: center;
   width: 100%;
   margin: 0px;
   max-width: 97%;
