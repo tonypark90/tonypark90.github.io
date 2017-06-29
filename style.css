@@ -10,21 +10,27 @@ body{
 nav{
   width: 100%;
 }
+nav{
+background: linear-gradient(to left, #ffffff, #f5f5f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 nav ul{
   display: inline-flex;
   border: solid 1px;
   justify-content: space-around;
   background-image: 
-  linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.8) ),
+  linear-gradient( rgba(0,20,40,.7), rgba(0,20,40,.8) ),
   url("sink.jpg");
   list-style: none;
-  height: 250px;
+  height: 200px;
   background-position: center;
   background-size: 100%;
   align-items: center;
   width: 100%;
   margin: 0px;
-  max-width: 97%;
+
+  padding: 0px;
 }
  nav ul li{
     color: white;
@@ -34,3 +40,48 @@ nav ul{
     letter-spacing: .7px;
     font-size: 18px;
  }
+
+.logo{
+  font-family: Lobster;
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+  color: #FF4500;
+  
+}
+
+.logo #phone{
+  display: flex;
+  font-family: Lobster;
+  color: #404040;
+  font-size: 26px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  font-family: Quicksand;
+
+  letter-spacing: .5px;
+  color: #0F0F0F;
+}
+
+.col-1{
+  padding: 3%;
+  text-align: center;
+  border: solid 1px #0F0F0F;
+}
+
+.col-2{
+  padding: 3%;
+  text-align: center;
+  border: solid 1px #0F0F0F;
+}
+
+.col-3{
+  padding: 3%;
+  text-align: center;
+  border: solid 1px #0F0F0F;
+}
